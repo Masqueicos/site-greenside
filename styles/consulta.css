@@ -1,88 +1,60 @@
-body{
-
-    color: rgb(0, 0, 0);
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgb(21, 220, 64) 100%);
-    font-family: 'Times New Roman', Times, serif;
-    
-
-    
+body {
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(162,222,175,1) 100%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
 }
 
-.logo{
-
-margin-top: 150px;
-margin-left: 250px;
-font-size: 15px;
-
+main {
+    margin-top: 50px;
+    text-align: center;
 }
 
-.paciente{
-    
-    
-    margin-top: -80px;
-    
+img {
+    width: 700px;
 }
 
-.paciente2{
 
-    width: 500px;
-
-
-
+label {
+    font-weight: 500;
+    font-size: 20px;
 }
 
-.texto{
+input {
+    margin-top: 5px;
+    font-size: 17px;
+}
 
-    margin-top: -450px;
-    margin-left: 160px;
-    font-size: 30px;
+a {
+    font-weight: 500;
+    color: black;
+}
+
+.center{
+    display: flex; 
+    justify-content: center; 
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+.box {
+    margin-right: 25px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.btn {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    background-color: #2CEF28;
     color: white;
-    
-    
-}
-
-.agendamentos{
-
-    margin-left: 850px;
-    margin-top: -420px;
-    
-
-}
-
-.agendamentos2{
-
-    margin-left: -100px;
-    margin-top: -80px;
-
-}
-
-.agendamentos3{
-
-    margin-left: 750px;
-    margin-top: -5px;
-
-}
-
-.texto2{
-
-    font-size: 30px;
-    margin-left: 850px;
-    margin-top: -430px;
-    color: white;
-
-}
-
-.greenside{
-
-    margin-top: -550px;
-    
-
-}
-.greenside2{
-
-    margin-left: 420px;
-    width: 500px;
-
+    font-weight: bold;
 }
 
 
