@@ -1,0 +1,89 @@
+body{
+
+    color: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgb(21, 220, 64) 100%);
+    font-family: 'Times New Roman', Times, serif;
+    
+
+    
+}
+
+.logo{
+
+margin-top: 150px;
+margin-left: 250px;
+font-size: 15px;
+
+}
+
+.paciente{
+    
+    
+    margin-top: -80px;
+    
+}
+
+.paciente2{
+
+    width: 500px;
+
+
+
+}
+
+.texto{
+
+    margin-top: -450px;
+    margin-left: 160px;
+    font-size: 30px;
+    color: white;
+    
+    
+}
+
+.agendamentos{
+
+    margin-left: 850px;
+    margin-top: -420px;
+    
+
+}
+
+.agendamentos2{
+
+    margin-left: -100px;
+    margin-top: -80px;
+
+}
+
+.agendamentos3{
+
+    margin-left: 750px;
+    margin-top: -5px;
+
+}
+
+.texto2{
+
+    font-size: 30px;
+    margin-left: 850px;
+    margin-top: -430px;
+    color: white;
+
+}
+
+.greenside{
+
+    margin-top: -550px;
+    
+
+}
+.greenside2{
+
+    margin-left: 420px;
+    width: 500px;
+
+}
+
+
+

@@ -21,7 +21,22 @@ h1 {
 
 .main_img {
     display: flex;
+    justify-content: center;
 }
+
+.atendimento {
+    padding-top: 50px;
+    max-height: 70px;
+}
+
+.sejaatendido2 {
+    max-height: 200px;
+}
+
+
+
+
+
 
 .center {
     display: flex; 
