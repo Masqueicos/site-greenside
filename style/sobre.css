@@ -58,6 +58,9 @@ footer {
     color: white;
     font-weight: 500;
     list-style: none;
+}
+
+.footer1 {
     display: flex;
 }
 
@@ -82,20 +85,45 @@ a:hover {
 }
 
 
-
 .footer_socials {
-    font-weight: 300;
-    text-decoration: underline;
     margin-left: 100px;
 }
 
-.footer_socials_icon {
-    display: flex;
-    flex-direction: column;
+.footer_socials p {
+    font-weight: 300;
+    text-decoration: underline;
 }
 
-.footer_socials_icon img{
+.footer_socials_icons {
+    margin-right: 15px;
+}
+
+.footer_socials_icon {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.icon {
     width: 25px;
     height: 25px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+
+
+.footer_logo {
+    margin-left: 400px;
+}
+
+.footer_logo img {
+    width: 150px;
+    height: 165px;
+}
+
+
+.footer2 {
+    margin-top: 15px;
+    border-top: 1px solid white;
+    padding-top: 10px;
+    text-align: center;
 }
