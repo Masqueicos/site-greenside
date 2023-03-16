@@ -1,0 +1,78 @@
+body {
+    color: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgb(21, 220, 64) 100%);
+    font-family: 'Times New Roman', Times, serif;
+
+    }
+    
+    ul {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        align-items: center;
+        padding: 15px
+        
+    } 
+    img {
+        width: 700px;
+        
+    }
+
+    .center{
+        text-align: center;
+        margin: -60px; 
+    
+    }
+
+    .branco{
+
+        text-align: center;
+        padding: 40px;
+        opacity: 80%;
+
+    }
+
+    .doutor{
+
+        width: 500px;
+        margin-top: 20px;
+    }
+    .atendimento{
+
+        margin-left: 250px;
+        margin-top: -190px;
+    }
+
+    .sejaatendido{
+
+        width: 500px;
+        margin-left: 200px;
+        margin-top: 80px;
+
+    }
+
+    .sejaatendido2{
+
+        width: 500px;
+        margin-left: -180px;
+        margin-top: -190px;
+    }
+
+    .btn{
+
+       
+    }
+
+    .login{
+
+        
+    }
+
+    #botao{
+    position: absolute;
+    text-align: center;
+    
+    
+
+
+    }
