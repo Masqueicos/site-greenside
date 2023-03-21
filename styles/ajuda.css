@@ -9,12 +9,23 @@ body {
     width: 100%;
 }
 
-main {
-    margin-top: 50px;
+header {
+    display: flex;
+    padding-left: 25px;
+    padding-top: 20px;
+    text-align: center;
+    float: left;
+    margin-bottom: 75px;
 }
 
-img {
-    width: 700px;
+nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+main {
+    padding-top: 225px;
 }
 
 li {
@@ -27,27 +38,12 @@ a {
 
 
 /* HEADER */
-header {
-    display: flex;
-    padding-left: 25px;
-    padding-top: 20px;
-    text-align: center;
-    position: absolute;
-    float: left;
-}
-
 .logo {
     padding-top: 35px;
 }
 
 
 /* NAVBAR */
-nav {
-    display: flex;
-    flex-direction: column;
-    margin-left: 25px;
-}
-
 .navbarTop {
     width: max-content;
     padding-left: 250px;
@@ -91,7 +87,6 @@ nav {
     min-width: 50px;
 }
 
-
 .navbarBottom {
     display: flex;
     margin-top: 25px;
@@ -124,35 +119,25 @@ nav {
 }
 
 
-/* MAIN */
-.center {
-    display: flex; 
-    justify-content: center; 
+/* SECTION */
+.content {
+    padding: 20px;
 }
 
-.section {
-    display: flex;
-    flex-direction: column;
-}
-
-.section h1 {
+.content_Title {
     background-color: #2CEF28;
     color: white;
-    margin-bottom: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
 }
 
-.section p {
-    background-color: white;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 10px;
-    padding-bottom: 20px;
+.content_Texts {
+    padding-left: 5px;
+}
+
+.content_Text {
+    margin-top: 10px;
 }
 
 
@@ -167,6 +152,7 @@ footer {
 
 .footer1 {
     display: flex;
+    padding-top: 10px;
 }
 
 .footer_title {
@@ -175,11 +161,10 @@ footer {
 }
 
 .footer_link {
-    margin-bottom: -10px;
+    margin-top: 10px;
 }
 
 footer a {
-    text-decoration: none;
     color: white;
     font-weight: 600;
 }
@@ -203,19 +188,20 @@ footer a:hover {
 }
 
 .footer_socials_icon {
-    margin-bottom: 10px;
+    margin-top: 15px;
     display: flex;
 }
 
 .icon {
     width: 25px;
     height: 25px;
-    margin-top: 15px;
-    margin-right: 5px;
+    margin-right: 10px;
+    margin-top: 10px
 }
 
 .footer_logo {
     margin-left: 400px;
+    margin-top: -25px;
 }
 
 .footer_logo img {
@@ -226,6 +212,6 @@ footer a:hover {
 .footer2 {
     margin-top: 15px;
     border-top: 1px solid white;
-    padding-top: 10px;
+    padding-top: 15px;
     text-align: center;
 }
