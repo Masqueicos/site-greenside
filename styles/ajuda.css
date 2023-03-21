@@ -1,5 +1,5 @@
 body {
-    
+    background: conic-gradient(from 209.55deg at 100% 26.66%, #A2DEAF -34.55deg, #FFFFFF 54.92deg, #A2DEAF 325.45deg, #FFFFFF 414.92deg);
     font-family: 'Montserrat', sans-serif;
     font-size: 17px;
 }
@@ -17,25 +17,6 @@ h1 {
     color: rgb(255, 0, 0);
     font-weight: bolder;
 }
-
-.main_img {
-    display: flex;
-    justify-content: center;
-}
-
-.atendimento {
-    padding-top: 50px;
-    max-height: 70px;
-}
-
-.sejaatendido2 {
-    max-height: 200px;
-}
-
-
-
-
-
 
 .center {
     display: flex; 
@@ -66,7 +47,6 @@ h1 {
     padding-top: 10px;
     padding-bottom: 20px;
 }
-
 
 
 /* FOOTER */
