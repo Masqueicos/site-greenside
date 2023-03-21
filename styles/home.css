@@ -4,14 +4,14 @@
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: medium;
     width: 100%;
 }
 
 header {
     display: flex;
-    padding-left: 20px;
+    padding-left: 25px;
     padding-top: 25px;
     text-align: center;
     position: absolute;
@@ -30,6 +30,12 @@ li {
 
 a {
     text-decoration: none;
+}
+
+
+/* HEADER */
+.logo {
+    padding-top: 35px;
 }
 
 
@@ -60,6 +66,16 @@ a {
 
 .navbarTop_Links_Ul li {
     margin-right: 25px;
+    color: #979797;
+}
+
+.navbarTop_Links_Ul a {
+    color: #979797;
+}
+
+.navbarTop_Links_Ul a:hover {
+    color: green;
+    font-weight: bold;
 }
 
 .navbarTop_Links_Ul img {
