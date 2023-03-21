@@ -1,7 +1,12 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    background: conic-gradient(from 209.55deg at 100% 26.66%, #A2DEAF -34.55deg, #FFFFFF 54.92deg, #A2DEAF 325.45deg, #FFFFFF 414.92deg);
     font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
+    font-size: medium;
+    width: 100%;
 }
 
 main {
@@ -12,12 +17,114 @@ img {
     width: 700px;
 }
 
-h1 {
-    font-size: 40px;
-    color: rgb(255, 0, 0);
-    font-weight: bolder;
+li {
+    list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
+
+/* HEADER */
+header {
+    display: flex;
+    padding-left: 25px;
+    padding-top: 20px;
+    text-align: center;
+    position: absolute;
+    float: left;
+}
+
+.logo {
+    padding-top: 35px;
+}
+
+
+/* NAVBAR */
+nav {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.navbarTop {
+    width: max-content;
+    padding-left: 250px;
+    display: block;
+    float: right;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #d9d9d9b3;
+}
+
+.navbarTop_Links {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.navbarTop_Links_Ul {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    float: right;
+    justify-content: space-evenly;
+}
+
+.navbarTop_Links_Ul li {
+    margin-right: 25px;
+    color: #979797;
+}
+
+.navbarTop_Links_Ul a {
+    color: #979797;
+}
+
+.navbarTop_Links_Ul a:hover {
+    color: green;
+    font-weight: bold;
+}
+
+.navbarTop_Links_Ul img {
+    max-width: 50px;
+    min-width: 50px;
+}
+
+
+.navbarBottom {
+    display: flex;
+    margin-top: 25px;
+    padding-left: 35px;
+}
+
+.searchbar {
+    display: flex;
+    background-color: #d9d9d940;
+    border: 1px solid #d9d9d9;
+    border-radius: 10px;
+    padding-left: 15px;
+
+}
+
+.searchbar input {
+    background-color: #d9d9d900;
+    border: none;
+    margin-left: 15px;
+    width: 575px;
+}
+
+.searchbar img {
+    max-width: 17px;
+    min-width: 17px;
+}
+
+.menuIcon {
+    margin-left: 30px;
+}
+
+
+/* MAIN */
 .center {
     display: flex; 
     justify-content: center; 
@@ -50,7 +157,6 @@ h1 {
 
 
 /* FOOTER */
-
 footer {
     background-color: #2CEF28;
     padding: 20px;
@@ -72,17 +178,16 @@ footer {
     margin-bottom: -10px;
 }
 
-a {
+footer a {
     text-decoration: none;
     color: white;
     font-weight: 600;
 }
 
-a:hover {
+footer a:hover {
     font-weight: normal;
     text-decoration: underline;
 }
-
 
 .footer_socials {
     margin-left: 100px;
@@ -109,7 +214,6 @@ a:hover {
     margin-right: 5px;
 }
 
-
 .footer_logo {
     margin-left: 400px;
 }
@@ -118,7 +222,6 @@ a:hover {
     width: 150px;
     height: 165px;
 }
-
 
 .footer2 {
     margin-top: 15px;
