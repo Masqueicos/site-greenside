@@ -13,11 +13,26 @@
     </head>
     <body>
         <header>
-            <div class="center">
-                <img src="./assets/logo.png">
+            <div class="header_logo">
+                <img src="./assets/logo.png" class="logo">
             </div>
         </header>
         <main>
+            <form action="">
+                <fieldset>
+                    <section class="form_section">
+                        <label for="email" class="form_section_label">Email ou CPF:</label>
+                        <input type="email" placeholder="Email/CPF" id="email" class="form_section_input" required>
+                    </section>
+                    <section class="form_section">
+                        <label for="senha" class="form_section_label">Senha:</label>
+                        <input type="password" placeholder="Senha" id="senha" class="form_section_input" required>
+                    </section>
+                    <section class="form_section">
+                        <a href="./index.html"><input type="button" value="ENTRAR" class="btn"></a>
+                    </section>
+                </fieldset>
+            </form>
             <section class="form">
                 <div class="input">
                     <label for="email">Email ou CPF:</label>

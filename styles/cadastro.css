@@ -1,8 +1,12 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
-    background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(162,222,175,1) 100%);
     font-family: 'Montserrat', sans-serif;
-    font-size: 17px;
+    font-size: medium;
+    width: 100%;
 }
 
 main {
