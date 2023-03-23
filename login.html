@@ -13,45 +13,38 @@
     </head>
     <body>
         <header>
-            <div class="header_logo">
+            <div class="logo">
                 <img src="./assets/logo.png" class="logo">
             </div>
         </header>
         <main>
-            <form action="">
-                <fieldset>
-                    <section class="form_section">
-                        <label for="email" class="form_section_label">Email ou CPF:</label>
-                        <input type="email" placeholder="Email/CPF" id="email" class="form_section_input" required>
-                    </section>
-                    <section class="form_section">
-                        <label for="senha" class="form_section_label">Senha:</label>
-                        <input type="password" placeholder="Senha" id="senha" class="form_section_input" required>
-                    </section>
-                    <section class="form_section">
-                        <a href="./index.html"><input type="button" value="ENTRAR" class="btn"></a>
-                    </section>
-                </fieldset>
-            </form>
-            <section class="form">
-                <div class="input">
-                    <label for="email">Email ou CPF:</label>
-                    <br>
-                    <input type="email" placeholder="Email/CPF" id="email" required>     
+            <div class="main_left">
+                <div class="login_img">
+                    <img src="./assets/login_img.svg" alt="Login" class="img">
                 </div>
-                <div class="input" >
-                    <label for="password">Senha:</label>
-                    <br>
-                    <input type="password" placeholder="Senha" id="password" required>
+            </div>
+            <div class="main_right">
+                <h1 class="main_right_h1">Entre na sua conta</h1>
+                <form action="">
+                    <fieldset>
+                        <section class="form_section">
+                            <label for="email" class="form_section_label">Email ou CPF:</label>
+                            <br>
+                            <input type="email" placeholder="Email/CPF" id="email" class="form_section_input" required>
+                        </section>
+                        <section class="form_section">
+                            <label for="senha" class="form_section_label">Senha:</label>
+                            <br>
+                            <input type="password" placeholder="Senha" id="senha" class="form_section_input" required>
+                        </section>
+                        <section class="form_section_btn">
+                            <a href="./index.html"><input type="button" value="ENTRAR" class="btn"></a>
+                        </section>
+                    </fieldset>
+                </form>
+                <div class="cta">
+                    <p>Ainda não tem uma conta?<br><span class="cta_link"><a href="./cadastro.html">Cadastre-se</a></span></p>
                 </div>
-                <div class="input">
-                    <a href="./index.html"><input type="button" name="botao" id="botao" value="ENTRAR" class="btn"></a>
-                </div>
-            </section>
-            <section class="cta">
-                <div class="cta_link">
-                    <p>Ainda não tem uma conta?<br><a href="./cadastro.html">Cadastre-se</a></p>
-                </div>
-            </section>
+            </div>
         </main>
     </body>

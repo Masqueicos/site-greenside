@@ -6,55 +6,53 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Cadastro - Greenside</title>
         <link rel="icon" type="image/x-icon" href="./assets/logo2.png">
-        <link rel="stylesheet" href="./styles/cadastro.css">
+        <link rel="stylesheet" href="./styles/login.css">
     </head>
     <body>
         <header>
-            <div class="center">
-            <img src="./assets/logo.png">
+            <div class="logo">
+                <img src="./assets/logo.png" class="logo">
             </div>
         </header>
         <main>
-            <section class="form">
-                <div class="input">
-                    <label for="nome">Nome:</label>
-                    <br>
-                    <input type="text" placeholder="Nome" id="nome" required>     
+            <div class="main_left">
+                <div class="login_img">
+                    <img src="./assets/login_img.svg" alt="Login" class="img">
                 </div>
-                <div class="input" >
-                    <label for="sobrenome">Sobrenome:</label>
-                    <br>
-                    <input type="text" placeholder="Sobrenome" id="sobrenome" required>
+            </div>
+            <div class="main_right">
+                <h1 class="main_right_h1">Crie sua conta</h1>
+                <form action="">
+                    <fieldset>
+                        <section class="form_section">
+                            <label for="nome" class="form_section_label">Nome:</label>
+                            <br>
+                            <input type="text" placeholder="Nome" id="nome" class="form_section_input" required>
+                        </section>
+                        <section class="form_section">
+                            <label for="sobrenome" class="form_section_label">Sobrenome:</label>
+                            <br>
+                            <input type="text" placeholder="Sobrenome" id="sobrenome" class="form_section_input" required>
+                        </section>
+                        <section class="form_section">
+                            <label for="telefone" class="form_section_label">Telefone:</label>
+                            <br>
+                            <input type="tel" placeholder="Telefone" id="telefone" class="form_section_input" required>
+                        </section>
+                        <section class="form_section">
+                            <label for="senha" class="form_section_label">Senha:</label>
+                            <br>
+                            <input type="password" placeholder="Senha" id="senha" class="form_section_input" required>
+                        </section>
+                        <section class="form_section_btn">
+                            <a href="./index.html"><input type="button" value="CRIAR CONTA" class="btn"></a>
+                        </section>
+                    </fieldset>
+                </form>
+                <div class="cta">
+                    <p>Já tem uma conta?<br><span class="cta_link"><a href="./login.html">Faça Login</a></span></p>
                 </div>
-                <div class="input" >
-                    <label for="email">Email:</label>
-                    <br>
-                    <input type="email" placeholder="Email" id="email" required>
-                </div>
-                <div class="input" >
-                    <label for="cpf">CPF:</label>
-                    <br>
-                    <input type="text" placeholder="CPF" id="cpf" required>
-                </div>
-                <div class="input" >
-                    <label for="telefone">Telefone:</label>
-                    <br>
-                    <input type="text" placeholder="Telefone" id="telefone" required>
-                </div>
-                <div class="input" >
-                    <label for="senha">Senha:</label>
-                    <br>
-                    <input type="password" placeholder="Senha" id="senha" required>
-                </div>
-                <div class="input">
-                    <a href="./index.html"><input type="button" name="botao" id="botao" value="CADASTRAR" class="btn"></a>
-                </div>
-            </section>
-            <section class="cta">
-                <div class="cadastro">
-                    <p>Já tem uma conta?<br><a href="./login.html">Faça login</a></p>
-                </div>
-            </section>
+            </div>
         </main>
     </body>
 </html>
