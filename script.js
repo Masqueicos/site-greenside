@@ -5,12 +5,12 @@ console.log(login)
 console.log(senha)
 
 function conferirLogin () {
-    let loginInput = document.getElementById('emailCPF')
-    let senhaInput = document.getElementById('senha')
+    let loginInput = document.getElementById('emailCPF').value;
+    let senhaInput = document.getElementById('senha').value;
 
-    if (login == loginInput || senha == senhaInput) {
+    if (login === loginInput && senha === senhaInput) {
         alert('Login certo')
     } else {
-        alert('Login errado')
+        alert('Login ou senha incorretos')
     }
 }

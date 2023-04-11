@@ -26,7 +26,7 @@
                         <p class="right_title">Bem Vindo de Volta!</p>
                         <p class="right_subtitle">Faça login e entre na sua conta</p>
                     </div>
-                    <form action="" autocomplete="on" class="right_form" onsubmit="conferirLogin" onclick="conferirLogin" id="form">
+                    <form action="" autocomplete="on" class="right_form" onsubmit="conferirLogin()" id="form">
                         <section class="right_form_section">
                             <label for="emailCPF" class="label">Email ou CPF:</label><br>
                             <input type="text" id="emailCPF" name="emailCPF" placeholder="Email/CPF" class="input" required><br>
@@ -36,7 +36,7 @@
                             <input type="password" id="senha" name="senha" placeholder="Senha" class="input" required><br>
                             <span class="right_form_span_text"><a href="https://flexboxfroggy.com/"><p>Esqueceu sua senha?</p></a></span>
                         </section>
-                        <button type="button" onclick="conferirLogin()">ENTRAR</button>
+                        <input type="submit" value="ENTRAR" class="btn">
                     </form>
                     <div style="text-align: center;">
                         <p class="right_text">Ainda não tem uma conta?</p>
