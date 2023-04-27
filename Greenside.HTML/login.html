@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+
+<body>
+
+    <button onclick=main()> ENTRAR</button>
+    <script>
+        function main() {
+            var user;
+            var password;
+            var recorrente;
+
+            recorrente = true;
+            do {
+                window.alert("digite seu nome de usuário");
+                user = window.prompt('Enter a value for user');
+                window.alert("Digite sua senha");
+                password = window.prompt("enter a value for password");
+                if (user == Pedro) {
+                    if (password == jjpja) {
+                        window.alert("você será direcionado ao seu perfil.");
+                        recorrente = false;
+                    } else {
+                        window.alert("usuário ou senha inválido");
+                    }
+                } else {
+                    ("usuário ou senha inválido.");
+                }
+            } while (recorrente == true);
+        }
+
+
+    </script>
+
+</body>
+
+</html>
