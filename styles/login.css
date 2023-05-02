@@ -1,118 +1,94 @@
 * {
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 body {
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    font-weight: normal;
-    width: 100%;
-    height: 100%;
-    background-color: #BDFFBC;
-
-}
-
-header {
-    padding-left: 25px;
-    padding-top: 20px;
-}
-
-fieldset {
-    border: none;
-}
-
-input {
-    border: none;
-    background-color: #BDFFBC;
-    border-bottom: 1px solid #a4a4a4;
-    margin-top: 5px;
 }
 
 main {
     display: flex;
-    height: 100%;
+    height: 577px;
+}
+
+a {
+    color: white;
+}
+
+
+
+/* LEFT */
+.left {
+    width: 50%;
+    padding: 20px 0px 0px 15px;
+}
+
+.left_img {
+    width: 70%;
+    margin: 50px 0px 0px 65px;
+}
+
+
+/* RIGHT */
+.right {
+    width: 50%;
+    padding: 100px 0px 0px 0px;
+    background-color: #075744;
+    color: white;
+}
+
+.right_title {
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.right_subtitle {
+    font-size: 0.8em;
+}
+
+.right_form {
+    margin-top: 30px;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.right_form input {
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.right_form_span_text {
+    font-size: 0.8em;
+    text-align: end;
+}
+
+.label {
+    text-align: start;
+}
+
+.input {
     width: 100%;
-}
-
-
-/* HEADER */
-.logo{
-    width: 300px;
-    height: 75px;
-}
-
-
-/* MAIN LEFT */
-.main_left {
-    height: 100%;
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-.img {
-    height: 450px;
-    width: 300px;
-}
-
-
-/* MAIN RIGHT */
-.main_right {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    padding-top: 40px;
-}
-
-.main_right_h1 {
-    margin-bottom: 15px;
-    color: #0B8C0B;
-}
-
-
-/* FORM */
-.form_section {
-    margin-bottom: 20px;
-}
-
-.form_section_input {
-    width: 300px;
-}
-
-.form_section_btn {
-    width: 300px;
-    text-align: center;
+    padding: 5px 0px 5px 7px;
+    margin: 5px 0px 7px 0px;
+    background-color: white;
 }
 
 .btn {
-    border-radius: 5px;
-    border: none;
-    padding: 10px;
-    background-color: #0B8C0B;
+    text-align: center;
+    width: 100%;
     color: white;
-    font-weight: bold;
-    text-align: center;
+    background-color: #079404;
+    font-size: 1.5em;
+    font-weight: 900;
+    padding: 7px 10px 7px 10px;
+    margin: 25px 0px 10px 0px;
 }
 
-
-/* CTA */
-.cta {
-    margin-top: 35px;
-    width: 300px;
-    text-align: center;
-    font-weight: 200;
-}
-
-.cta_link {
-    text-decoration: underline;
-    color: black;
-}
-
-a:visited {
-    color: black;
+.btn:hover {
+    cursor: pointer;
 }

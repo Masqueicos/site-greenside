@@ -7,6 +7,12 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: medium;
     width: 100%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 header {
@@ -120,14 +126,13 @@ a {
 
 
 /* MAIN */
-.banner {
-    width: 100%;
+main {
+    margin-bottom: 0px;
+    padding: 0px;
 }
 
-.cta {
-    padding-top: 40px;
-    padding-bottom: 35px;
-    text-align: center;
+.main_img {
+    width: 100%;
 }
 
 
@@ -138,6 +143,7 @@ footer {
     color: white;
     font-weight: 500;
     list-style: none;
+    margin-top: 0px;
 }
 
 .footer1 {
