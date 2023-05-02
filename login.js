@@ -81,7 +81,7 @@ function validarLogin() {
     usuarioValidar = document.getElementById("usuarioInput").value;
     senhaValidar = document.getElementById("senhaInput").value;
     
-    console.log(usuariosDB.find(usuario == usuarioValidar))
+    let abobora = usuariosDB.find(usuario);
 
 
 
