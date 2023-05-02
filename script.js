@@ -1,5 +1,5 @@
-let login = "46275435810";
-let senha = "123456";
+var login = "46275435810";
+var senha = "123456";
 
 console.log(login)
 console.log(senha)
