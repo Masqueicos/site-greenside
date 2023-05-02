@@ -33,42 +33,28 @@ var usuarioValidar;
 var senhaValidar;
 
 function validarLogin(event) {
-
     event.preventDefault();
 
     usuarioValidar = document.getElementById("usuarioInput").value;
     senhaValidar = document.getElementById("senhaInput").value;
 
     let usuarioAchado = usuariosDB.find(user => user.usuario === usuarioValidar)
+    let senhaAchada = usuariosDB.find(password => password.senha === senhaValidar)
 
     console.log(usuarioAchado)
 
-    if (usuarioAchado == undefined) {
-        console.log("Deu ruim")
+    if (usuarioAchado == undefined && senhaAchada == undefined) {
+        console.log("usuario ou senha deu ruim")
+        window.alert("Usuário ou senha incorretos.")
+    } else if (usuarioAchado == undefined) {
+        console.log("usuario deu ruim")
+        window.alert("Usuário ou senha incorretos.")
+    } else if (senhaAchada == undefined) {
+        console.log("senha deu ruim")
+        window.alert("Usuário ou senha incorretos.")
     } else {
-        console.log("Deu bom")
+        console.log("deu bom")
+        window.alert("Login correto. Redirecionando para a página inicial.")
         window.location.assign("./index.html")
     }
-
-    /*
-    let user = usuariosDB.find(function (user) {
-        return user.usuario == usuarioValidar;
-    });
-    let password = usuariosDB.find(function (password) {
-        return password.senha == senhaValidar;
-    });
-
-    do {
-        if (user == usuarioValidar) {
-            if (senha == senhaValidar) {
-                validacaoCompleta = true;
-                console.log("Login correto");
-            } else {
-                console.log("Login errado");
-            }
-        } else {
-            console.log("Login errado")
-        }
-    } while (validacaoCompleta == false);
-    */
 }
