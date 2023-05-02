@@ -66,40 +66,30 @@ for (let usuariosIndex = 0; usuariosIndex < array.length; usuariosIndex++) {
 
 var usuariosDB = [
     {usuario: "leon", senha: "1234"},
-    {usuario: "ashley", senha: "4321"},
+    {usuario: "adriano imperador", senha: "4321"},
     {usuario: "tonio rodrigues", senha: "5678"},
-    {usuario: "wesker", senha: "8675"}
+    {usuario: "wesker", senha: "8675"},
 ];
 
 var usuarioValidar;
 var senhaValidar;
 var validacaoCompleta = false;
 
-
-
 function validarLogin() {
     usuarioValidar = document.getElementById("usuarioInput").value;
     senhaValidar = document.getElementById("senhaInput").value;
+
+    let user = usuariosDB.find(function (user) {
+        return user.usuario === usuarioValidar;
+    })
     
-    let abobora = usuariosDB.find(usuario);
+    let password = usuariosDB.find(function (password) {
+        return password.senha === senhaValidar;
+    })
 
-
-
-
-
-
-
-
-
-    /*do {
-
-    }
-
-    usuariosDB.forEach(function () {
-        
-    })*/
+    console.log(user);
+    console.log(password);
 }
-
 
 
     /*
@@ -116,17 +106,3 @@ function validarLogin() {
         }
     } while (recorrente == true);
     */
-
-
-    const inventory = [
-        {name: 'apples', quantity: 2},
-        {name: 'bananas', quantity: 0},
-        {name: 'cerejas', quantity: 5}
-    ];
-    
-    function isCherries(fruit) {
-        return fruit.name === 'cerejas';
-    }
-    
-    console.log(inventory.find(isCherries));
-    // { name: 'cerejas', quantity: 5 }
