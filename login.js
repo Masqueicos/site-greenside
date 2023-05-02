@@ -31,7 +31,6 @@ var usuariosDB = [
 
 var usuarioValidar;
 var senhaValidar;
-var validacaoCompleta = false;
 
 function validarLogin(event) {
 
@@ -40,6 +39,18 @@ function validarLogin(event) {
     usuarioValidar = document.getElementById("usuarioInput").value;
     senhaValidar = document.getElementById("senhaInput").value;
 
+    let usuarioAchado = usuariosDB.find(user => user.usuario === usuarioValidar)
+
+    console.log(usuarioAchado)
+
+    if (usuarioAchado == undefined) {
+        console.log("Deu ruim")
+    } else {
+        console.log("Deu bom")
+        window.location.assign("./index.html")
+    }
+
+    /*
     let user = usuariosDB.find(function (user) {
         return user.usuario == usuarioValidar;
     });
@@ -58,5 +69,6 @@ function validarLogin(event) {
         } else {
             console.log("Login errado")
         }
-    } while (validacaoCompleta == false); 
+    } while (validacaoCompleta == false);
+    */
 }
