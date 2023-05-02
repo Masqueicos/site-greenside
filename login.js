@@ -65,44 +65,55 @@ for (let usuariosIndex = 0; usuariosIndex < array.length; usuariosIndex++) {
 */
 
 var usuariosDB = [
-    {usuario: "leon", senha: "1234"},
-    {usuario: "adriano imperador", senha: "4321"},
-    {usuario: "tonio rodrigues", senha: "5678"},
-    {usuario: "wesker", senha: "8675"},
+    { usuario: "leon", senha: "1234" },
+    { usuario: "adriano imperador", senha: "4321" },
+    { usuario: "tonio rodrigues", senha: "5678" },
+    { usuario: "wesker", senha: "8675" },
 ];
 
 var usuarioValidar;
 var senhaValidar;
 var validacaoCompleta = false;
 
-function validarLogin() {
+function validarLogin(event) {
+    event.preventDefault();
+
     usuarioValidar = document.getElementById("usuarioInput").value;
     senhaValidar = document.getElementById("senhaInput").value;
 
     let user = usuariosDB.find(function (user) {
         return user.usuario === usuarioValidar;
     })
-    
+
     let password = usuariosDB.find(function (password) {
         return password.senha === senhaValidar;
     })
 
-    console.log(user);
-    console.log(password);
+    do {
+        if (user === usuarioValidar) {
+            if (senha === senhaValidar) {
+                validacaoCompleta = true;
+                console.log("Login correto");
+            } else {
+                console.log("Login errado");
+            }
+        } else {
+            console.log("Login errado")
+        }
+    } while (validacaoCompleta = false); 
 }
 
-
-    /*
-    do {
-        if (user == "Adri") {
-            if (senha == 123) {
-                window.alert("Você será redirecionado ao seu perfil")
-                recorrente = false
-            } else {
-                window.alert("Usuário ou senha inválido")
-            }
+/*
+do {
+    if (user == "Adri") {
+        if (senha == 123) {
+            window.alert("Você será redirecionado ao seu perfil")
+            recorrente = false
         } else {
             window.alert("Usuário ou senha inválido")
         }
-    } while (recorrente == true);
-    */
+    } else {
+        window.alert("Usuário ou senha inválido")
+    }
+} while (recorrente == true);
+*/
