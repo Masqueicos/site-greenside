@@ -154,24 +154,24 @@ main {
     margin-top: 5px;
 }
 
-.section_content {
+.section_servicos_content {
     padding: 50px 200px 25px 200px;
     text-align: center;
     display: flex;
     justify-content: space-evenly;
 }
 
-.section_content_column {
+.section_servicos_content_column {
     display: flex;
     flex-direction: column;
     text-align: center;
 }
 
-.section_content_column_card {
+.section_servicos_content_column_card {
     margin-bottom: 25px;
 }
 
-.section_content_column_card_text {
+.section_servicos_content_column_card_text {
     margin-top: 10px;
     text-align: center;
     font-weight: 700;
