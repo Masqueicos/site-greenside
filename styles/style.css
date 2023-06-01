@@ -137,10 +137,6 @@ main {
 
 
 /* SECTION */
-.section_servicos {
-    padding-top: 30px;
-}
-
 .section_title {
     text-align: center;
     font-weight: 700;
@@ -152,6 +148,11 @@ main {
     font-weight: 300;
     font-size: 20px;
     margin-top: 5px;
+}
+
+/* SECTION_SERVICOS */
+.section_servicos {
+    padding-top: 30px;
 }
 
 .section_servicos_content {
@@ -181,6 +182,9 @@ main {
     width: 125px;
     height: 125px;   
 }
+
+/*SECTION_ATENDIMENTO*/
+
 
 
 /* FOOTER */
