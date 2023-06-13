@@ -9,7 +9,7 @@
 - [Briefing](https://docs.google.com/document/d/1YRivZR9YMgarIR9hmZ4uCyjX4k_E66GQOpiX7pQdjAI/edit?usp=sharing "Briefing do Site Greenside")
 
 <figure>
-    <img src="/assets/images/uml.png"
+    <img src="assets/uml.png"
          alt="UML">
     <figcaption>UML Caso de Uso.</figcaption>
 </figure>
